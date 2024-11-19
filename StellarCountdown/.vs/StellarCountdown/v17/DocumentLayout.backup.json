@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DBEE64F-1325-44EA-B457-45321E36FD2F}|StellarCountdown\\StellarCountdown.csproj|c:\\users\\administrator\\source\\repos\\stellarcountdown\\stellar-countdown\\stellarcountdown\\stellarcountdown\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DBEE64F-1325-44EA-B457-45321E36FD2F}|StellarCountdown\\StellarCountdown.csproj|solutionrelative:stellarcountdown\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DBEE64F-1325-44EA-B457-45321E36FD2F}|StellarCountdown\\StellarCountdown.csproj|c:\\users\\administrator\\source\\repos\\stellarcountdown\\stellar-countdown\\stellarcountdown\\stellarcountdown\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DBEE64F-1325-44EA-B457-45321E36FD2F}|StellarCountdown\\StellarCountdown.csproj|solutionrelative:stellarcountdown\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DBEE64F-1325-44EA-B457-45321E36FD2F}|StellarCountdown\\StellarCountdown.csproj|c:\\users\\administrator\\source\\repos\\stellarcountdown\\stellar-countdown\\stellarcountdown\\stellarcountdown\\stellarcountdown.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5DBEE64F-1325-44EA-B457-45321E36FD2F}|StellarCountdown\\StellarCountdown.csproj|solutionrelative:stellarcountdown\\stellarcountdown.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 237,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "StellarCountdown\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "StellarCountdown\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T13:21:12.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "StellarCountdown\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\Components\\Layout\\MainLayout.razor*",
+              "RelativeToolTip": "StellarCountdown\\Components\\Layout\\MainLayout.razor*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T13:21:05.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StellarCountdown",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\StellarCountdown.csproj",
+              "RelativeDocumentMoniker": "StellarCountdown\\StellarCountdown.csproj",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\StellarCountdown.csproj",
+              "RelativeToolTip": "StellarCountdown\\StellarCountdown.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-19T13:20:45.805Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

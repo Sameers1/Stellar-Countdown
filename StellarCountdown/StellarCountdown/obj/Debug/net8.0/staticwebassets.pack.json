@@ -1,7 +1,11 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\StellarCountdown\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {

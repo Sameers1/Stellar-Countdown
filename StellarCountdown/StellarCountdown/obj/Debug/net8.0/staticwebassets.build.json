@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W+NOP0q68oYL9W52FNnv39869MQ23vZkqeYrFHgpws8=",
+  "Hash": "p3O9QIa3jYyskJanicv5rea2Z/oHsTWdJMsIwujj2ak=",
   "Source": "StellarCountdown",
   "BasePath": "_content/StellarCountdown",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "StellarCountdown\\wwwroot",
       "Source": "StellarCountdown",
-      "ContentRoot": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\StellarCountdown\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\wwwroot\\",
       "BasePath": "_content/StellarCountdown",
       "Pattern": "**"
     }
@@ -59,10 +59,31 @@
       "OriginalItemSpec": "C:\\Users\\Administrator\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js"
     },
     {
-      "Identity": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\StellarCountdown\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\wwwroot\\css\\site.css",
       "SourceId": "StellarCountdown",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\StellarCountdown\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\wwwroot\\",
+      "BasePath": "_content/StellarCountdown",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bdofet92q1",
+      "Integrity": "H5s4yc5yKTxTggJY+kw/Lr8o4JXJTChjLmDOZATPfgw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\wwwroot\\favicon.ico",
+      "SourceId": "StellarCountdown",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\wwwroot\\",
       "BasePath": "_content/StellarCountdown",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -156,8 +177,90 @@
       ]
     },
     {
+      "Route": "css/site.bdofet92q1.css",
+      "AssetFile": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H5s4yc5yKTxTggJY+kw/Lr8o4JXJTChjLmDOZATPfgw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 Nov 2024 13:28:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bdofet92q1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H5s4yc5yKTxTggJY+kw/Lr8o4JXJTChjLmDOZATPfgw="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H5s4yc5yKTxTggJY+kw/Lr8o4JXJTChjLmDOZATPfgw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 Nov 2024 13:28:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H5s4yc5yKTxTggJY+kw/Lr8o4JXJTChjLmDOZATPfgw="
+        }
+      ]
+    },
+    {
       "Route": "favicon.2jeq8efc6q.ico",
-      "AssetFile": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\StellarCountdown\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -178,7 +281,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Nov 2024 13:00:22 GMT"
+          "Value": "Tue, 19 Nov 2024 13:14:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -202,7 +305,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\StellarCountdown\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -223,7 +326,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Nov 2024 13:00:22 GMT"
+          "Value": "Tue, 19 Nov 2024 13:14:26 GMT"
         },
         {
           "Name": "Cache-Control",

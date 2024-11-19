@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\StellarCountdown\\StellarCountdown.csproj": {}
+    "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\StellarCountdown.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\StellarCountdown\\StellarCountdown.csproj": {
+    "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\StellarCountdown.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\StellarCountdown\\StellarCountdown.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\StellarCountdown.csproj",
         "projectName": "StellarCountdown",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\StellarCountdown\\StellarCountdown.csproj",
+        "projectPath": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\StellarCountdown.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\StellarCountdown\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
