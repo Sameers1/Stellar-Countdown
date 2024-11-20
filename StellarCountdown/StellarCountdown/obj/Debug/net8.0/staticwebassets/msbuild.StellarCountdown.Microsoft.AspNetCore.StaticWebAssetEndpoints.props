@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/StellarCountdown/css/site.bdofet92q1.css">
+    <StaticWebAssetEndpoint Include="_content/StellarCountdown/css/site.b9yitk75fm.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bdofet92q1"},{"Name":"integrity","Value":"sha256-H5s4yc5yKTxTggJY\u002Bkw/Lr8o4JXJTChjLmDOZATPfgw="},{"Name":"label","Value":"_content/StellarCountdown/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1385"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022H5s4yc5yKTxTggJY\u002Bkw/Lr8o4JXJTChjLmDOZATPfgw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 13:28:40 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b9yitk75fm"},{"Name":"integrity","Value":"sha256-EcWOpcxixwyT7FU3/r\u002BzzM0ovVRvEVAmKSiXxOR201I="},{"Name":"label","Value":"_content/StellarCountdown/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1299"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022EcWOpcxixwyT7FU3/r\u002BzzM0ovVRvEVAmKSiXxOR201I=\u0022"},{"Name":"Last-Modified","Value":"Wed, 20 Nov 2024 07:07:29 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/StellarCountdown/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-H5s4yc5yKTxTggJY\u002Bkw/Lr8o4JXJTChjLmDOZATPfgw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1385"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022H5s4yc5yKTxTggJY\u002Bkw/Lr8o4JXJTChjLmDOZATPfgw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 13:28:40 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EcWOpcxixwyT7FU3/r\u002BzzM0ovVRvEVAmKSiXxOR201I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1299"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022EcWOpcxixwyT7FU3/r\u002BzzM0ovVRvEVAmKSiXxOR201I=\u0022"},{"Name":"Last-Modified","Value":"Wed, 20 Nov 2024 07:07:29 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/StellarCountdown/favicon.2jeq8efc6q.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

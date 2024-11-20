@@ -1,67 +1,60 @@
-﻿/* Overall Layout */
+﻿/* Main container styles */
 .main-container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #2c2c2c; /* Dark gray background */
-    color: #eaeaea; /* Light text color */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
 }
 
-/* Header */
-header {
-    background-color: #1a1a1a; /* Almost black */
-    padding: 1.5rem 1rem;
+/* Header styles */
+.app-header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-    header h1 {
-        margin: 0;
-        font-size: 2rem;
-        font-weight: bold;
-        color: #f5c518; /* Subtle gold accent for title */
-    }
-
-/* Main Content */
-main {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-}
-
+/* Content styles */
 .content-wrapper {
-    background-color: #333;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    text-align: center;
-    width: 100%;
-    max-width: 400px;
+    flex: 1; /* Make sure the content takes up all available space */
+    padding: 20px;
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-/* Footer */
-footer {
-    background-color: #1a1a1a;
-    color: #a9a9a9; /* Subtle text for footer */
+/* Footer styles */
+.app-footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
     text-align: center;
-    padding: 1rem;
-    font-size: 0.9rem;
 }
 
-    footer p {
-        margin: 0;
-    }
+/* MudBlazor specific styles */
+.mud-progress-linear {
+    width: 100% !important; /* Ensure progress bar takes full width */
+    margin: 10px 0; /* Add spacing around the progress bar */
+    height: 20px; /* Set height for a consistent look */
+}
 
-/* Responsive Design */
-@media (max-width: 600px) {
-    header h1 {
-        font-size: 1.5rem;
-    }
+.mud-progress-linear-bar {
+    background-color: #4caf50; /* Green progress bar */
+}
 
-    .content-wrapper {
-        padding: 1.5rem;
-    }
+.mud-progress-linear-background {
+    background-color: #e0e0e0; /* Light gray background */
+}
+
+/* Additional styles for typography */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    margin: 0;
 }

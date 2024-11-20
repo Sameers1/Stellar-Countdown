@@ -2,17 +2,82 @@
 
 <PageTitle>Counter</PageTitle>
 
-<MudText Typo="Typo.h3" GutterBottom="true">Counter</MudText>
+<MudContainer MaxWidth="MaxWidth.Medium" Class="ma-4 pa-4">
+    <!-- Title Section -->
+    <MudText Typo="Typo.h2" GutterBottom="true">Countdown Timer</MudText>
 
-<MudText Typo="Typo.body1" Class="mb-4">Current count: @currentCount</MudText>
+    <!-- Timer Input Section -->
+    <MudTextField @bind-Value="timer" T="int" Label="Set Timer (seconds)" Min="1" Adornment="Adornment.Start" AdornmentText="⏱️" />
 
-<MudButton Color="Color.Primary" Variant="Variant.Filled" @onclick="IncrementCount">Click me</MudButton>
+    <!-- Start Countdown Button with Custom Styling -->
+    <MudButton @onclick="StartCountdownAsync" Class="mt-2 start-button">Start Countdown</MudButton>
+
+    <!-- Time Left Display -->
+    <MudText Typo="Typo.h3" Class="mt-4">Time Left: @timeLeft seconds</MudText>
+
+    <!-- Progress Bar with Dynamic Value -->
+    <MudProgressLinear Value="@(100 * (timer - timeLeft) / timer)" Class="progress-bar my-7" Style="height: 20px;">
+        <MudText Typo="Typo.subtitle1" Color="Color.Dark">
+            <b>@(100 * (timer - timeLeft) / timer) %</b>
+        </MudText>
+    </MudProgressLinear>
+</MudContainer>
+
+<style>
+    /* Start Button Styling */
+    .start-button {
+        background: linear-gradient(135deg, #4caf50, #388e3c); /* Gradient from Green to Dark Green */
+        color: white;
+        font-weight: 600;
+        padding: 12px 24px;
+        border-radius: 50px; /* Rounded button */
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: none;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+    }
+
+        .start-button:hover {
+            background: linear-gradient(135deg, #388e3c, #4caf50); /* Reverse gradient on hover */
+            transform: translateY(-4px);
+            box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .start-button:active {
+            transform: translateY(2px);
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+    /* Custom Styling for Progress Bar */
+    .progress-bar .mud-progress-linear-bar {
+        background-color: #4caf50; /* Green color for the progress bar */
+    }
+
+    .progress-bar .mud-progress-linear-background {
+        background-color: #e0e0e0; /* Light gray for the background */
+    }
+
+    /* Optional: Styling the percentage text */
+    .progress-bar .mud-progress-linear-bar .mud-text {
+        color: #fff; /* White text on the bar */
+    }
+</style>
 
 @code {
-    private int currentCount = 0;
+    private int timer = 10; // Default initial timer value
+    private int timeLeft = 0; // Time remaining
 
-    private void IncrementCount()
+    private async Task StartCountdownAsync()
     {
-        currentCount++;
+        timeLeft = timer > 0 ? timer : 1; // Ensure a valid countdown starts
+
+        while (timeLeft > 0)
+        {
+            await Task.Delay(1000); // Wait for 1 second
+            --timeLeft; // Decrease the countdown
+            StateHasChanged(); // Update the UI
+        }
     }
 }
