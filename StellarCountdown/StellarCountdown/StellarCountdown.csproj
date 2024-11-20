@@ -8,6 +8,6 @@
 
 
   <ItemGroup>
-    <PackageReference Include="MudBlazor" Version="7.*" />
+    <PackageReference Include="MudBlazor" Version="7.15.0" />
   </ItemGroup>
 </Project>

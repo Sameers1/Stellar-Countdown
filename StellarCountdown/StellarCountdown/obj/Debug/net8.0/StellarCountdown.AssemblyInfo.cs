@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StellarCountdown")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+874440d40452d5a137964ac2fed0653559af9b13")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9b511ef0110f9670d9390b0a29325c3457351a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("StellarCountdown")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StellarCountdown")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
