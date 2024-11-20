@@ -46,8 +46,7 @@
               "RelativeToolTip": "StellarCountdown\\wwwroot\\css\\site.css",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAEEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-19T13:28:34.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T13:28:34.251Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "StellarCountdown\\Components\\Layout\\NavMenu.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T13:21:12.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T13:21:12.902Z"
             },
             {
               "$type": "Document",
@@ -70,7 +68,7 @@
               "RelativeDocumentMoniker": "StellarCountdown\\Components\\Layout\\MainLayout.razor",
               "ToolTip": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\Components\\Layout\\MainLayout.razor",
               "RelativeToolTip": "StellarCountdown\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-19T13:21:05.897Z",
               "EditorCaption": ""
@@ -78,15 +76,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "StellarCountdown",
+              "Title": "StellarCountdown.csproj",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\StellarCountdown.csproj",
               "RelativeDocumentMoniker": "StellarCountdown\\StellarCountdown.csproj",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\StellarCountdown.csproj*",
-              "RelativeToolTip": "StellarCountdown\\StellarCountdown.csproj*",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\StellarCountdown\\Stellar-Countdown\\StellarCountdown\\StellarCountdown\\StellarCountdown.csproj",
+              "RelativeToolTip": "StellarCountdown\\StellarCountdown.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-19T13:20:45.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T13:20:45.805Z"
             }
           ]
         }
